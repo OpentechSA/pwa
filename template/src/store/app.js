@@ -4,9 +4,9 @@ export default {
     show: false,
     items: [
       {icon: 'home', title: 'Inicio', to: '/'},
-      {icon: 'list', title: 'Categorías', to: '/'},
+      {icon: 'list', title: 'Categorías', to: '/categorias'},
       {type: 'divider'},
-      {icon: 'shopping_cart', title: 'Mi Carrito', to: '/'}
+      {icon: 'shopping_cart', title: 'Mi Carrito', to: '/carrito'}
     ]
   },
   footer: {
