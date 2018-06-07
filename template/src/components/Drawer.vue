@@ -6,9 +6,9 @@
     <v-list>
       <template v-for="item in app.drawer.items">
         <v-list-tile v-if="item.type == null || item.type === 'tile'" :to="item.to">
-          <v-list-tile-action> <v-icon>{{ item.icon }}</v-icon> </v-list-tile-action>
+          <v-list-tile-action> <v-icon v-text="item.icon"></v-icon> </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+            <v-list-tile-title v-text="item.title"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
 
