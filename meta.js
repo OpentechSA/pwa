@@ -87,12 +87,7 @@ module.exports = {
        type: "confirm",
        message: "Use a-la-carte components?",
        default: false
-    },
-    theme: {
-      type: "confirm",
-      message: "Use custom theme?",
-      default: false
-    },
+    }
   },
   "filters": {
     ".eslintrc.js": "lint",
