@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer right temporary fixed app v-model="app.drawer.show">
     <v-card flat color="primary" height="200px">
-      Nombre de usuario
+      
     </v-card>
     <v-list>
       <template v-for="item in app.drawer.items">
